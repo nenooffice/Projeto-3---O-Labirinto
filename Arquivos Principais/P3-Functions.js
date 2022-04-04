@@ -566,7 +566,7 @@ async function blueEdTech() {
    const spinner = createSpinner('Conferindo a resposta...').start();
    await sleep(1000);
 
-  if (x == '1'){
+  if (x == 'Forma é vazio, vazio é forma'){
       
       spinner.success()
       console.log('\n', 'Acesso permitido', '\n');
