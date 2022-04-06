@@ -585,7 +585,7 @@ async function correto(x) {
    const spinner = createSpinner('Conferindo a resposta...').start();
    await sleep(1000);
 
-  if (x == '1'){ //NAO ESQUECER DE MUDAR A SENHA!!!
+  if (x == 'Forma é vazio, vazio é forma'){ //NAO ESQUECER DE MUDAR A SENHA!!!
       
       spinner.success()
       console.log('\n', 'Acesso permitido', '\n');
